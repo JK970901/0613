@@ -1,0 +1,7 @@
+<script type="text/javascript">
+var oldUrl = 'https://JK.hyjung1.repl.co'; //
+var changeUrl = 'https://JK1997.co'; // 
+var urlString = location.href;
+if (urlString.match(oldUrl)){
+    window.location.replace(urlString.replace(oldUrl, changeUrl));
+} else {}
